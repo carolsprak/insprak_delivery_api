@@ -50,7 +50,7 @@ Com o Postment ou qualquer ferramenta de gestão de comunicação você pode alt
 Para isso só utilizar os comandos abaixo.
 
 
-#### Cardápio (GET)
+#### Insprak Delivery (GET)
 
 - Obter usuários: GET /users
 - Obter usuários por ID: GET /users/{id}
@@ -58,14 +58,14 @@ Para isso só utilizar os comandos abaixo.
 - Obter pedidos: GET /orders
 - Obter carrinhos: GET /carts 
 
-#### Cardápio (POST)
+#### Insprak Delivery (POST)
 
 - Obter usuários (body): POST /users
 - Obter restaurantes (body): POST /restaurants
 - Obter pedidos (body): POST /orders
 - Obter carrinhos (body): POST /carts 
 
-#### Cardápio (PUT / PATCH)
+#### Insprak Delivery (PUT / PATCH)
 
 - Atualizar usuários (body): PUT /users/{id}
 - Atualizar usuários (body parcial): PATCH /users/{id} 
@@ -76,7 +76,7 @@ Para isso só utilizar os comandos abaixo.
 - Atualizar carrinhos (body): PUT /carts/{id}
 - Atualizar carrinhos (body parcial): PATCH /carts/{id}  
 
-#### Cardápio (DELETE)
+#### Insprak Delivery (DELETE)
 
 - Remover usuários: DELETE /users 
 - Remover restaurantes: DELETE /restaurants
@@ -87,4 +87,4 @@ Para isso só utilizar os comandos abaixo.
 ##### Exemplos de Filtros
 - http://localhost:4589/users/1
 - http://localhost:4589/users?active=true
-- http://localhost:4589/users?firstName=John# insprak_delivery_api
+- http://localhost:4589/users?firstName=John
