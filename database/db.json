@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "johndoe",
+      "password": "password123",
+      "email": "john.doe@example.com",
+      "cpfCnpj": "123.456.789-00",
+      "profiles": [
+        "Cliente",
+        "Entregador"
+      ],
+      "birthDate": "1980-01-01",
+      "active": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "addresses": [
+        {
+          "id": 1,
+          "street": "Rua das Flores",
+          "number": "123",
+          "city": "São Paulo",
+          "state": "SP",
+          "zipCode": "01234-567",
+          "latitude": -23.55052,
+          "longitude": -46.633308
+        }
+      ]
+    },
+    {
+      "firstName": "Anne",
+      "lastName": "Rocha",
+      "username": "annerocha_qa",
+      "password": "123456",
+      "email": "annerocha.qa@mail.com",
+      "cpfCnpj": "21215444888",
+      "birthDate": "1977-11-10",
+      "profiles": [
+        "Cliente",
+        "Entregador",
+        "Prestador"
+      ],
+      "addresses[0].street": "Rua da lua",
+      "addresses[0].number": "10",
+      "addresses[0].complement": "",
+      "addresses[0].city": "Catarina",
+      "addresses[0].state": "SU",
+      "addresses[0].zipCode": "48775-554",
+      "id": 2
+    },
+    {
+      "firstName": "Anne",
+      "lastName": "Caroline",
+      "username": "annecaroline",
+      "password": "123456",
+      "email": "annecaroline@mail.com",
+      "cpfCnpj": "21215444888",
+      "birthDate": "1977-11-10",
+      "profiles": "[Prestador]",
+      "addresses[0]": {
+        "street": "Rua da lua",
+        "number": "10",
+        "complement": "AP 100",
+        "city": "Catarina",
+        "state": "SU",
+        "zipCode": "48775-554"
+      },
+      "id": 3
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Catarina",
+      "username": "mcatarina",
+      "password": "123456",
+      "email": "mariac@mail.com",
+      "cpfCnpj": "12664999788",
+      "birthDate": "2000-10-10",
+      "profiles": "Prestador",
+      "addresses[0]": {
+        "street": "Rua da lua",
+        "number": "10",
+        "complement": "AP 100",
+        "city": "Catarina",
+        "state": "SU",
+        "zipCode": "48775-554"
+      },
+      "id": 4
+    },
+    {
+      "firstName": "João",
+      "lastName": "Gutierrez",
+      "username": "jgutierrez",
+      "password": "123456",
+      "email": "jgutierrez@mail.com",
+      "cpfCnpj": "21215444888",
+      "birthDate": "2000-10-10",
+      "profiles": "Entregador",
+      "addresses[0]": {
+        "street": "Rua da lua",
+        "number": "10",
+        "complement": "AP 100",
+        "city": "Catarina",
+        "state": "SU",
+        "zipCode": "48775-554"
+      },
+      "id": 5
+    },
+    {
+      "firstName": "Karina",
+      "lastName": "Souza",
+      "username": "ksouza",
+      "password": "123456",
+      "email": "ksouza@mail.com",
+      "cpfCnpj": "12664999788",
+      "birthDate": "2000-10-10",
+      "profiles": "Prestador",
+      "addresses[0]": {
+        "street": "Rua da lua",
+        "number": "10",
+        "complement": "AP 100",
+        "city": "Catarina",
+        "state": "SU",
+        "zipCode": "48775-554"
+      },
+      "id": 6
+    },
+    {
+      "firstName": "Vitor",
+      "lastName": "Senna",
+      "username": "vsenna",
+      "password": "123456",
+      "email": "vsenna@mail.com",
+      "cpfCnpj": "21215444888",
+      "birthDate": "2000-10-10",
+      "profiles": "Prestador",
+      "addresses[0]": {
+        "street": "Rua da lua",
+        "number": "10",
+        "complement": "AP 100",
+        "city": "Catarina",
+        "state": "SU",
+        "zipCode": "48775-554"
+      },
+      "id": 7
+    },
+    {
+      "firstName": "Luana",
+      "lastName": "Pereira",
+      "username": "lpereira",
+      "password": "123456",
+      "email": "lpereira@mail.com",
+      "cpfCnpj": "21215444888",
+      "birthDate": "2000-10-10",
+      "profiles": [
+        "Cliente",
+        "Prestador"
+      ],
+      "addresses[0]": {
+        "street": "Rua da lua",
+        "number": "10",
+        "complement": "AP 100",
+        "city": "Catarina",
+        "state": "SU",
+        "zipCode": "48775-554"
+      },
+      "id": 8
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Restaurante A",
+      "description": "Comida deliciosa",
+      "address": {
+        "street": "Avenida Principal",
+        "number": "456",
+        "city": "São Paulo",
+        "state": "SP",
+        "zipCode": "01234-567"
+      },
+      "providerId": 2,
+      "products": [
+        {
+          "id": 1,
+          "name": "Pizza Margherita",
+          "category": "Pizza",
+          "description": "Pizza com molho de tomate, mussarela e manjericão",
+          "photo": "url_da_foto",
+          "availableQuantity": 10,
+          "price": 30,
+          "averageStars": 4.5
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "providerId": 2,
+      "clientId": 1,
+      "deliveryPersonId": 3,
+      "totalPayment": 40,
+      "status": "aguardando",
+      "deliveryFee": 10,
+      "orderTime": "2024-07-14T12:00:00Z",
+      "deliveryTime": null,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 30
+        }
+      ],
+      "rating": null
+    }
+  ],
+  "carts": [
+    {
+      "clientId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 30
+        }
+      ],
+      "totalItems": 2,
+      "totalPrice": 60,
+      "deliveryFee": 10
+    }
+  ]
+}

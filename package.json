@@ -1,0 +1,19 @@
+{
+  "name": "insprak_delivery_back",
+  "version": "1.0.0",
+  "description": "Sistema de entrega de pedidos de restaurantes da cidade.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "delivery",
+    "comida"
+  ],
+  "author": "Anne Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
