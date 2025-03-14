@@ -1,5 +1,8 @@
 # Simulação REST API NodeJS  v1.0.3
 
+## Acessando API
+
+- https://insprak-delivery-api-0729615f05f3.herokuapp.com/
 
 ## Começando
 
